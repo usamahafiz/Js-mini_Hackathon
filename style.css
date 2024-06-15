@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar, footer {
+    background-color: #1d2951 !important;
+}
+
+.body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+} 
+
+main{
+    flex: 1 0 auto;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+
